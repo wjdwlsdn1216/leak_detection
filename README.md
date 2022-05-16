@@ -40,13 +40,15 @@ torchvision                   0.9.2+cu111
 > 데이터 레이블 및 제공 데이터량
 > <img src="/README_img/data.PNG" width="80%" height="80%" title="data" alt="data"></img>
 >
-> 5개 레이블의 주파수 대역별 진동수치 [링크](https://github.com/wjdwlsdn1216/leak_detection/blob/main/README_img/output.png)
+> 5개 레이블의 주파수 대역별 진동수치 [링크](https://github.com/wjdwlsdn1216/leak_detection/blob/main/raw_data_handling/rawdata_visualization.ipynb)
 > <img src="/README_img/output.png" width="80%" height="80%" title="output" alt="output"></img>
 
-## 알고리즘
+## 활용 알고리즘
 > - Pytorch
 > - Neural Network(신경망)
 > - linear regression(선형회귀)
+
+-------------------------------------------------------------------------------------------------------------------------
 
 ## 데이터 전처리
 > ### 필요없는 컬럼을 제거한후 모델 input에 적합한 구조로 변환 과정을 거쳤다.
