@@ -126,6 +126,11 @@ def init_weights(m):
 
 ## 결과
 
-> - tensorboard 라이브러리를 활용한 학습 손실 그래프
+> - tensorboard 라이브러리를 활용한 학습 손실 그래프 [링크](https://github.com/wjdwlsdn1216/leak_detection/blob/main/README_img/training_loss.PNG)
 > <img src="/README_img/training_loss.PNG" width="80%" height="80%" title="training_loss" alt="training_loss"></img>
 > - 기존 testdata의 leaktype과 모델이 예측한 testdata의 leaktype의 비교결과
+
+## 참고문서
+
+Pytorch : https://pytorch.org/tutorials/beginner/examples_nn/polynomial_module.html
+kaggle : https://www.kaggle.com/c/2021sejongai-tp-17011815
