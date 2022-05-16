@@ -135,6 +135,7 @@ def init_weights(m):
 > <img src="/README_img/training_loss.PNG" width="80%" height="80%" title="training_loss" alt="training_loss"></img>
 > - 기존 testdata의 leaktype과 모델이 예측한 testdata의 leaktype의 비교결과
 ```
+대기
 ```
 > - 아쉬운점
 >   커스텀 모델 구축 과정에서 노트북 성능한계로 인해 linear을 제외한 rnn,cnn,lstm 등을 활용 못해본게 아쉽다.
