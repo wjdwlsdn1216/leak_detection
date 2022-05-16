@@ -82,7 +82,7 @@ def preprocessing(train_data, test_data, le):
 
 ## 데이터 모델링
 > ### Pytorch를 활용하여 커스텀 모델을 구축
-> - 모델 = linear, 활성화함수 = relu를 활용한 커스텀 모델 구축
+> - 모델 = linear, 활성화함수 = relu를 활용한 커스텀 모델 구축 [링크](https://github.com/wjdwlsdn1216/leak_detection/blob/main/model.py)
 ```python
 # 커스텀 모델 지정
 class CustomModel(nn.Module):
