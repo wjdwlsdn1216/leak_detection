@@ -9,4 +9,4 @@
 > ### 데이터
 > AIHUB 상수관로 데이터
 > - 데이터 레이블 및 제공 데이터량
->   
+>   <img src="/README_img/data.PNG" width="60%" height="60%" title="data" alt="data"></img>  
