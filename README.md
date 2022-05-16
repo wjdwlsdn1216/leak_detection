@@ -4,8 +4,8 @@
 
 ## 개요
 > ### 누수감지 모델 개발 목적
-> 상수관로 스마트 누수 감지 자동화 서비스를 위한 모델 개발
-> 전국적으로 발생하는 누수를 빠르게 알아내고 해결하기 위한 목적 
+> 1.상수관로 스마트 누수 감지 자동화 서비스를 위한 모델 개발
+> 2. 전국적으로 발생하는 누수를 빠르게 알아내고 해결하기 위한 목적 
 
 ## 개발환경
 ### pip list
@@ -35,7 +35,7 @@ torchvision                   0.9.2+cu111
 
 ## 데이터
 > AIHUB 상수관로 데이터
-> [AIHUB 링크](https://aihub.or.kr/aidata/27709)
+>   [AIHUB 링크](https://aihub.or.kr/aidata/27709)
 > 
 > 데이터 레이블 및 제공 데이터량
 > <img src="/README_img/data.PNG" width="80%" height="80%" title="data" alt="data"></img>  
