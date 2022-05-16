@@ -41,6 +41,6 @@ torchvision                   0.9.2+cu111
 > <img src="/README_img/data.PNG" width="80%" height="80%" title="data" alt="data"></img>
 
 ## 알고리즘
-> Pytorch
-> Neural Network(신경망)
-> linear regression(선형회귀)
+> - Pytorch
+> - Neural Network(신경망)
+> - linear regression(선형회귀)
