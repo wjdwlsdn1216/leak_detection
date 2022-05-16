@@ -43,6 +43,11 @@ torchvision                   0.9.2+cu111
 > 5개 레이블의 주파수 대역별 진동수치 [rawdata_visualization.ipynb](https://github.com/wjdwlsdn1216/leak_detection/blob/main/raw_data_handling/rawdata_visualization.ipynb)
 > <img src="/README_img/output.png" width="80%" height="80%" title="output" alt="output"></img>
 
+## 설치
+> 1. clone repo
+> 2. install requirements.txt 
+> 3. main.py 실행
+
 ## 활용 알고리즘
 > - Pytorch
 > - Neural Network(신경망)
@@ -129,8 +134,12 @@ def init_weights(m):
 > - tensorboard 라이브러리를 활용한 학습 손실 그래프 [링크](https://github.com/wjdwlsdn1216/leak_detection/blob/main/README_img/training_loss.PNG)
 > <img src="/README_img/training_loss.PNG" width="80%" height="80%" title="training_loss" alt="training_loss"></img>
 > - 기존 testdata의 leaktype과 모델이 예측한 testdata의 leaktype의 비교결과
+```
+```
+> - 아쉬운점
+>   커스텀 모델 구축 과정에서 노트북 성능한계로 인해 linear을 제외한 rnn,cnn,lstm 등을 활용 못해본게 아쉽다.
 
 ## 참고문서
 
-Pytorch : https://pytorch.org/tutorials/beginner/examples_nn/polynomial_module.html
-kaggle : https://www.kaggle.com/c/2021sejongai-tp-17011815
+- Pytorch : https://pytorch.org/tutorials/beginner/examples_nn/polynomial_module.html
+- kaggle : https://www.kaggle.com/c/2021sejongai-tp-17011815
