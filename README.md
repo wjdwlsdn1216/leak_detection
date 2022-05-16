@@ -141,5 +141,5 @@ def init_weights(m):
 
 ## 참고문서
 
-- Pytorch : https://pytorch.org/tutorials/beginner/examples_nn/polynomial_module.html
-- kaggle : https://www.kaggle.com/c/2021sejongai-tp-17011815
+* Pytorch : https://pytorch.org/tutorials/beginner/examples_nn/polynomial_module.html
+* kaggle : https://www.kaggle.com/c/2021sejongai-tp-17011815
