@@ -40,7 +40,7 @@ torchvision                   0.9.2+cu111
 > 데이터 레이블 및 제공 데이터량
 > <img src="/README_img/data.PNG" width="80%" height="80%" title="data" alt="data"></img>
 >
-> 5개 레이블의 주파수 대역별 진동수치 [링크](https://github.com/wjdwlsdn1216/leak_detection/blob/main/raw_data_handling/rawdata_visualization.ipynb)
+> 5개 레이블의 주파수 대역별 진동수치 [rawdata_visualization.ipynb](https://github.com/wjdwlsdn1216/leak_detection/blob/main/raw_data_handling/rawdata_visualization.ipynb)
 > <img src="/README_img/output.png" width="80%" height="80%" title="output" alt="output"></img>
 
 ## 활용 알고리즘
@@ -61,7 +61,7 @@ test_data = pd.concat([test_leak_out, test_leak_in, test_leak_noise, test_leak_o
 train_data.to_csv('./data/Training/train_data.csv', index=False)
 test_data.to_csv('./data/Validation/test_data.csv', index=False)
 ```
-> - 데이터 전처리 핵심 코드 [링크](https://github.com/wjdwlsdn1216/leak_detection/blob/main/data_preprocessing.py)
+> - 데이터 전처리 핵심 코드 [data_preprocessing.py](https://github.com/wjdwlsdn1216/leak_detection/blob/main/data_preprocessing.py)
 ```python
 def preprocessing(train_data, test_data, le):
 
@@ -87,7 +87,7 @@ def preprocessing(train_data, test_data, le):
 
 ## 데이터 모델링
 > ### Pytorch를 활용하여 커스텀 모델을 구축
-> - 모델 = linear, 활성화함수 = relu를 활용한 커스텀 모델 구축 [링크](https://github.com/wjdwlsdn1216/leak_detection/blob/main/model.py)
+> - 모델 = linear, 활성화함수 = relu를 활용한 커스텀 모델 구축 [model.py](https://github.com/wjdwlsdn1216/leak_detection/blob/main/model.py)
 ```python
 # 커스텀 모델 지정
 class CustomModel(nn.Module):
@@ -125,3 +125,7 @@ def init_weights(m):
 ```
 
 ## 결과
+
+> - tensorboard 라이브러리를 활용한 학습 손실 그래프
+> <img src="/README_img/training_loss.PNG" width="80%" height="80%" title="training_loss" alt="training_loss"></img>
+> - 기존 testdata의 leaktype과 모델이 예측한 testdata의 leaktype의 비교결과
