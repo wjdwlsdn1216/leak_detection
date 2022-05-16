@@ -38,4 +38,9 @@ torchvision                   0.9.2+cu111
 >   [AIHUB 링크](https://aihub.or.kr/aidata/27709)
 > 
 > 데이터 레이블 및 제공 데이터량
-> <img src="/README_img/data.PNG" width="80%" height="80%" title="data" alt="data"></img>  
+> <img src="/README_img/data.PNG" width="80%" height="80%" title="data" alt="data"></img>
+
+## 알고리즘
+> Pytorch
+> Neural Network(신경망)
+> linear regression(선형회귀)
