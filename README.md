@@ -12,7 +12,27 @@
 ## 개발환경
 
 ```
-ㅇㅇㅇ
+python                        3.7.13
+ipykernel                     6.13.0
+jupyter                       1.0.0
+Keras-Preprocessing           1.1.2
+lxml                          4.6.2
+Markdown                      3.3.7
+matplotlib                    3.5.2
+numpy                         1.19.5
+pandas                        1.3.5
+pip                           21.2.4
+pydot                         1.4.2
+scikit-learn                  1.0.2
+scipy                         1.7.3
+sklearn                       0.0
+tensorboard                   2.9.0
+tensorboard-data-server       0.6.1
+tensorboard-plugin-wit        1.8.1
+tensorboardX                  2.5
+torch                         1.8.2+cu111
+torchaudio                    0.8.2
+torchvision                   0.9.2+cu111
 ```
 
 ## 데이터
