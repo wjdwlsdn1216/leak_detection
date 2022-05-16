@@ -40,7 +40,7 @@ torchvision                   0.9.2+cu111
 > 데이터 레이블 및 제공 데이터량
 > <img src="/README_img/data.PNG" width="80%" height="80%" title="data" alt="data"></img>
 >
-> 5개 레이블의 주파수 대역별 진동수치
+> 5개 레이블의 주파수 대역별 진동수치 [링크](https://github.com/wjdwlsdn1216/leak_detection/blob/main/README_img/output.png)
 > <img src="/README_img/output.png" width="80%" height="80%" title="output" alt="output"></img>
 
 ## 알고리즘
