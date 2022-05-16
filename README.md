@@ -56,7 +56,7 @@ test_data = pd.concat([test_leak_out, test_leak_in, test_leak_noise, test_leak_o
 train_data.to_csv('./data/Training/train_data.csv', index=False)
 test_data.to_csv('./data/Validation/test_data.csv', index=False)
 ```
-> - 데이터 전처리 핵심 코드
+> - 데이터 전처리 핵심 코드 [링크](https://github.com/wjdwlsdn1216/leak_detection/blob/main/data_preprocessing.py)
 ```python
 def preprocessing(train_data, test_data, le):
 
