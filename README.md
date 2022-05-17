@@ -41,6 +41,7 @@ torchvision                   0.9.2+cu111
 > <img src="/README_img/data.PNG" width="80%" height="80%" title="data" alt="data"></img>
 >
 > 5개 레이블의 주파수 대역별 진동수치 [rawdata_visualization.ipynb](https://github.com/wjdwlsdn1216/leak_detection/blob/main/raw_data_handling/rawdata_visualization.ipynb)
+> - 100HZ에서 500HZ 사이가 가장 많은 변동이 있는걸 확인할 수 있다.
 > <img src="/README_img/output.png" width="80%" height="80%" title="output" alt="output"></img>
 
 ## 설치
