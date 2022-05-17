@@ -17,15 +17,15 @@ from model import CustomModel, init_weights # 모델, 가중치초기화 함수 
 def train(model, train_loader):
 
     loss = nn.CrossEntropyLoss().to(device) # 다중분류 대표적인 손실함수
-    optimizer = torch.optim.Adam(model.parameters(), lr = 0.001) #adam 옵티마이저 선택, 학습률 = 0.001
-    epoch = 10
+    optimizer = torch.optim.Adam(model.parameters(), lr = 0.002) #adam 옵티마이저 선택, 학습률 = 0.001
+    epoch = 5
 
     model.train()
     total_batch = len(train_loader)
 
     for i in range(epoch+1):
         avg_cost = 0
-
+        
         for X, y in train_loader:
             X = X.to(device)
             y = y.to(device)
