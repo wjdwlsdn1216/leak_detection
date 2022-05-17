@@ -74,6 +74,13 @@ if __name__ == "__main__":
     model = model.apply(init_weights)
     print(model) # 모델 구조
     model = train(model, train_loader)
+    
+    # 모델 저장
+    torch.save(model.state_dict(),'./model/model.pth')
+
+    # 모델 로드
+    # model = CustomModel().to(device)
+    # model.load_state_dict(torch.load('./model/model.pth'))
 
     # 예측 및 csv로 저장
     predict = pred(model, X_test)
