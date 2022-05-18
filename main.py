@@ -105,7 +105,7 @@ if __name__ == "__main__":
     plt.savefig('./README_img/cf_matrix.png')
     plt.show()
     
-    print(metrics.classification_report(y_test, y_pred, labels=labels))
-    print("Accuracy : ",metrics.accuracy_score(y_test, y_pred))
+    print(metrics.classification_report(y_test, y_pred, labels=labels)) # 분류평가지표 표기
+    print("Accuracy : ",metrics.accuracy_score(y_test, y_pred)) # 정확도
 
 
