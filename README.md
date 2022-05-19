@@ -60,24 +60,24 @@ torchvision                   0.9.2+cu111
 > ### 1. 독립변수 분석
 > + 주파수 대역별 진동수치
 >   + 100HZ에서 500HZ 사이가 가장 많은 변동이 있는걸 확인할 수 있다.
-> <img src="/README_img/output.png" width="80%" height="80%" title="output" alt="output"></img>
+>   + <img src="/README_img/output.png" width="80%" height="80%" title="output" alt="output"></img>
 > + 최대 주파수 및 최대 누수 평균 수치
 >   + x축의 MAX짝수는 최대 주파수이고, MAX홀수는 최대 누수 수치다.
 >   + y축은 평균값을 나타낸 수치이다.
 >   + 최대 주파수 수치는 noise -> normal -> other -> out -> in 순서로 주파수 대역이 높아진다.
 >   + 최대 누수 수치는 normal -> in -> other -> out -> noise 순서로 누수크기가 높아진다.
-> <img src="/README_img/output1.png" width="80%" height="80%" title="output1" alt="output1"></img>
+>   + <img src="/README_img/output1.png" width="80%" height="80%" title="output1" alt="output1"></img>
 > ### 2. 변수 간의 상관관계
 > + lrate(누수확률), llevel(누수레벨), ldate(누수날짜), leaktype(레이블)간의 상관관계
 >   + 분석결과 llevel과 lrate이 상관관계가 높다는걸
 heatmap을 통해 알 수 있다.
-> <img src="/README_img/output2.png" width="80%" height="80%" title="output2" alt="output2"></img>
+>   + <img src="/README_img/output2.png" width="80%" height="80%" title="output2" alt="output2"></img>
 > ### 3. 높은 상관관계를 가진 변수 추가 분석
 > + 평균 누수확률 평균 누수크기 수치
 >   + 정상음(normal)을 제외하고 나머지 leaktype은 데이터상 전부 90퍼센트 이상 누수확율 발생
 >   + 정상음도 70퍼센트 이상 확률로 누수확율이 발생 할수도 있다는걸 알 수 있다.
 >   + 이상치 수치가 옥내누수(in), 정상음(normal)에서 많이 보이는걸 알 수 있다.
-> <img src="/README_img/output3.png" width="80%" height="80%" title="output3" alt="output3"></img>
+>   + <img src="/README_img/output3.png" width="80%" height="80%" title="output3" alt="output3"></img>
 > ### 4. 분석 결과
 > + lrate(누수확율)은 normal(정상음)을 제외한 나머지는 전부 90프로 이상 누수 발생
 > + 평균적으로 140hz에서 530hz 사이의 주파수에서 누수 진동 크기가 가장 많이 발생한다는 것을 알 수 있다.
@@ -164,16 +164,16 @@ def init_weights(m):
 ## 모델 학습 결과 분석
 
 > - tensorboard 라이브러리를 활용한 손실 그래프
-> <img src="/README_img/training_loss.PNG" width="80%" height="80%" title="training_loss" alt="training_loss"></img>
+>   - <img src="/README_img/training_loss.PNG" width="80%" height="80%" title="training_loss" alt="training_loss"></img>
 > - Confusion Matrix를 활용한 결과 도출
 >   - 5개 레이블의 TP, TN, FP, FN 시각화 [Confusion Matrix 설명 링크](https://nittaku.tistory.com/295)
-> <img src="/README_img/cf_matrix.png" width="80%" height="80%" title="cf_matrix" alt="cf_matrix"></img>
+>   - <img src="/README_img/cf_matrix.png" width="80%" height="80%" title="cf_matrix" alt="cf_matrix"></img>
 > - 분류평가지표 (정밀도, 재현율, F1스코어, 정확도)
-> <img src="/README_img/accuracy.PNG" width="80%" height="80%" title="accuracy" alt="accuracy"></img>
+>   - <img src="/README_img/accuracy.PNG" width="80%" height="80%" title="accuracy" alt="accuracy"></img>
 
 ## 결론
 
-> - 
+> - 누수감지 주파수 범위 변수를 통해 데이터
 > - 
 > - 
 
