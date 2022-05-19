@@ -72,7 +72,7 @@ torchvision                   0.9.2+cu111
 >   + 분석결과 llevel과 lrate이 상관관계가 높다는걸
 heatmap을 통해 알 수 있다.
 > <img src="/README_img/output2.png" width="80%" height="80%" title="output2" alt="output2"></img>
-> ### 3. 누수확률별 누수크기 비교
+> ### 3. 높은 상관관계를 가진 변수 추가 분석
 > + 평균 누수확률 평균 누수크기 수치
 >   + 정상음(normal)을 제외하고 나머지 leaktype은 데이터상 전부 90퍼센트 이상 누수확율 발생
 >   + 정상음도 70퍼센트 이상 확률로 누수확율이 발생 할수도 있다는걸 알 수 있다.
