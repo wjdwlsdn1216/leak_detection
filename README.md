@@ -62,7 +62,7 @@ torchvision                   0.9.2+cu111
 >   + 100HZ에서 500HZ 사이가 가장 많은 변동이 있는걸 확인할 수 있다.
 > <img src="/README_img/output.png" width="80%" height="80%" title="output" alt="output"></img>
 > + 최대 주파수 및 최대 누수 평균 수치
->   + x축의 MAX짝수는 최대 주파수이고, MAX홀수는 최대 누수이다.
+>   + x축의 MAX짝수는 최대 주파수이고, MAX홀수는 최대 누수 수치다.
 >   + y축은 평균값을 나타낸 수치이다.
 >   + 최대 주파수 수치는 noise -> normal -> other -> out -> in 순서로 주파수 대역이 높아진다.
 >   + 최대 누수 수치는 normal -> in -> other -> out -> noise 순서로 누수크기가 높아진다.
