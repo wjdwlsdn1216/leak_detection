@@ -27,7 +27,8 @@ class CustomModel(nn.Module):
         return logits
 
 # 가중치 초기화 함수
+# 레이어간 대칭적인 가중치를 갖지 않게 하기위함
 def init_weights(m):
     if isinstance(m, nn.Linear):
-        nn.init.xavier_uniform(m.weight)
+        nn.init.xavier_uniform(m.weight) # 균등 분포 사용
         m.bias.data.fill_(0.01)

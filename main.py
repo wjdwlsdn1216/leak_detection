@@ -21,7 +21,7 @@ def train(model, train_loader):
 
     loss = nn.CrossEntropyLoss().to(device) # 다중분류 대표적인 손실함수
     optimizer = torch.optim.Adam(model.parameters(), lr = 0.002) #adam 옵티마이저 선택, 학습률 = 0.001
-    epoch = 3
+    epoch = 5
 
     model.train()
     total_batch = len(train_loader)
@@ -96,7 +96,7 @@ if __name__ == "__main__":
 
     fig, ax = plt.subplots()
     sns.heatmap(cf_matrix, annot=True, fmt='g', xticklabels=labels, yticklabels=labels) # 히트맵으로 시각화
-    ax.invert_yaxis()
+    ax.invert_yaxis() # y축 순서 바꿈
 
     plt.title("Confusion matrix of the leaktype")
     plt.xlabel("Predict labels")
