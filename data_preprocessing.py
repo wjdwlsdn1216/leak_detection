@@ -6,8 +6,8 @@ from torch.utils.data import DataLoader, TensorDataset
 def preprocessing(train_data, test_data, le):
 
     #필요없는 데이터 컬럼 삭제
-    train_data = train_data.drop(['site','sid','ldate','lrate','llevel'], axis = 1)
-    test_data = test_data.drop(['site','sid','ldate','lrate','llevel','leaktype'], axis = 1)
+    train_data = train_data.drop(['site','sid','ldate'], axis = 1)
+    test_data = test_data.drop(['site','sid','ldate','leaktype'], axis = 1)
 
     # label로 지정할 컬럼 실수화
     train_data['leaktype'] = le.fit_transform(train_data['leaktype'])
